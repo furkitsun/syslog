@@ -10,7 +10,8 @@ A script to mimic a syslog server.
   
 -In the same dir as the script 
 
-centralized_logs
-        |----------->hostname
-                         |--------->date
-                                      |------->log_facility 
+centralized_log > hostname > date > log_facility 
+
+## Purpose 
+ 
+Use for studies.
